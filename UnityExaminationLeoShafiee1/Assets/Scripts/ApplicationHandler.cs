@@ -12,6 +12,15 @@ public class ApplicationHandler : MonoBehaviour
         // Load the scene named "NewScene"
         SceneManager.LoadSceneAsync("NewScene", LoadSceneMode.Single);
     }
+ 
+public void WinScene()
+    {
+        // Load the scene named "NewScene"
+        SceneManager.LoadSceneAsync("Win", LoadSceneMode.Single);
+    }
+
+
+
 
     public void QuitGame()
     {
